@@ -1,1 +1,3 @@
-# HeyDo_IOSBLEDEMO
+# 获取嘿逗水杯Mac地址的demo
+本demo用于搜索附近嘿逗水杯，并可以获取相应水杯Mac地址。
+更改代码中对应uuid参数也可用于其他智能设备。
