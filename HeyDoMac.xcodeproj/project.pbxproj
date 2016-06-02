@@ -1,0 +1,524 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2309E89A1CBF80A80031BE3A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2309E8991CBF80A80031BE3A /* main.m */; };
+		2309E89D1CBF80A80031BE3A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2309E89C1CBF80A80031BE3A /* AppDelegate.m */; };
+		2309E8A01CBF80A80031BE3A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2309E89F1CBF80A80031BE3A /* ViewController.m */; };
+		2309E8A31CBF80A80031BE3A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2309E8A11CBF80A80031BE3A /* Main.storyboard */; };
+		2309E8A51CBF80A80031BE3A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2309E8A41CBF80A80031BE3A /* Assets.xcassets */; };
+		2309E8A81CBF80A80031BE3A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2309E8A61CBF80A80031BE3A /* LaunchScreen.storyboard */; };
+		2309E8B31CBF80A80031BE3A /* HeyDoMacTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2309E8B21CBF80A80031BE3A /* HeyDoMacTests.m */; };
+		2309E8BE1CBF80A80031BE3A /* HeyDoMacUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2309E8BD1CBF80A80031BE3A /* HeyDoMacUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2309E8AF1CBF80A80031BE3A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2309E88D1CBF80A80031BE3A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2309E8941CBF80A80031BE3A;
+			remoteInfo = HeyDoMac;
+		};
+		2309E8BA1CBF80A80031BE3A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2309E88D1CBF80A80031BE3A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2309E8941CBF80A80031BE3A;
+			remoteInfo = HeyDoMac;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2309E8951CBF80A80031BE3A /* HeyDoMac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HeyDoMac.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2309E8991CBF80A80031BE3A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2309E89B1CBF80A80031BE3A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2309E89C1CBF80A80031BE3A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2309E89E1CBF80A80031BE3A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		2309E89F1CBF80A80031BE3A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		2309E8A21CBF80A80031BE3A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2309E8A41CBF80A80031BE3A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2309E8A71CBF80A80031BE3A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2309E8A91CBF80A80031BE3A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2309E8AE1CBF80A80031BE3A /* HeyDoMacTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HeyDoMacTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2309E8B21CBF80A80031BE3A /* HeyDoMacTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HeyDoMacTests.m; sourceTree = "<group>"; };
+		2309E8B41CBF80A80031BE3A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2309E8B91CBF80A80031BE3A /* HeyDoMacUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HeyDoMacUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2309E8BD1CBF80A80031BE3A /* HeyDoMacUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HeyDoMacUITests.m; sourceTree = "<group>"; };
+		2309E8BF1CBF80A80031BE3A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2309E8921CBF80A80031BE3A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2309E8AB1CBF80A80031BE3A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2309E8B61CBF80A80031BE3A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2309E88C1CBF80A80031BE3A = {
+			isa = PBXGroup;
+			children = (
+				2309E8971CBF80A80031BE3A /* HeyDoMac */,
+				2309E8B11CBF80A80031BE3A /* HeyDoMacTests */,
+				2309E8BC1CBF80A80031BE3A /* HeyDoMacUITests */,
+				2309E8961CBF80A80031BE3A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2309E8961CBF80A80031BE3A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2309E8951CBF80A80031BE3A /* HeyDoMac.app */,
+				2309E8AE1CBF80A80031BE3A /* HeyDoMacTests.xctest */,
+				2309E8B91CBF80A80031BE3A /* HeyDoMacUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2309E8971CBF80A80031BE3A /* HeyDoMac */ = {
+			isa = PBXGroup;
+			children = (
+				2309E89B1CBF80A80031BE3A /* AppDelegate.h */,
+				2309E89C1CBF80A80031BE3A /* AppDelegate.m */,
+				2309E89E1CBF80A80031BE3A /* ViewController.h */,
+				2309E89F1CBF80A80031BE3A /* ViewController.m */,
+				2309E8A11CBF80A80031BE3A /* Main.storyboard */,
+				2309E8A41CBF80A80031BE3A /* Assets.xcassets */,
+				2309E8A61CBF80A80031BE3A /* LaunchScreen.storyboard */,
+				2309E8A91CBF80A80031BE3A /* Info.plist */,
+				2309E8981CBF80A80031BE3A /* Supporting Files */,
+			);
+			path = HeyDoMac;
+			sourceTree = "<group>";
+		};
+		2309E8981CBF80A80031BE3A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2309E8991CBF80A80031BE3A /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2309E8B11CBF80A80031BE3A /* HeyDoMacTests */ = {
+			isa = PBXGroup;
+			children = (
+				2309E8B21CBF80A80031BE3A /* HeyDoMacTests.m */,
+				2309E8B41CBF80A80031BE3A /* Info.plist */,
+			);
+			path = HeyDoMacTests;
+			sourceTree = "<group>";
+		};
+		2309E8BC1CBF80A80031BE3A /* HeyDoMacUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2309E8BD1CBF80A80031BE3A /* HeyDoMacUITests.m */,
+				2309E8BF1CBF80A80031BE3A /* Info.plist */,
+			);
+			path = HeyDoMacUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2309E8941CBF80A80031BE3A /* HeyDoMac */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2309E8C21CBF80A80031BE3A /* Build configuration list for PBXNativeTarget "HeyDoMac" */;
+			buildPhases = (
+				2309E8911CBF80A80031BE3A /* Sources */,
+				2309E8921CBF80A80031BE3A /* Frameworks */,
+				2309E8931CBF80A80031BE3A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HeyDoMac;
+			productName = HeyDoMac;
+			productReference = 2309E8951CBF80A80031BE3A /* HeyDoMac.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2309E8AD1CBF80A80031BE3A /* HeyDoMacTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2309E8C51CBF80A80031BE3A /* Build configuration list for PBXNativeTarget "HeyDoMacTests" */;
+			buildPhases = (
+				2309E8AA1CBF80A80031BE3A /* Sources */,
+				2309E8AB1CBF80A80031BE3A /* Frameworks */,
+				2309E8AC1CBF80A80031BE3A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2309E8B01CBF80A80031BE3A /* PBXTargetDependency */,
+			);
+			name = HeyDoMacTests;
+			productName = HeyDoMacTests;
+			productReference = 2309E8AE1CBF80A80031BE3A /* HeyDoMacTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2309E8B81CBF80A80031BE3A /* HeyDoMacUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2309E8C81CBF80A80031BE3A /* Build configuration list for PBXNativeTarget "HeyDoMacUITests" */;
+			buildPhases = (
+				2309E8B51CBF80A80031BE3A /* Sources */,
+				2309E8B61CBF80A80031BE3A /* Frameworks */,
+				2309E8B71CBF80A80031BE3A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2309E8BB1CBF80A80031BE3A /* PBXTargetDependency */,
+			);
+			name = HeyDoMacUITests;
+			productName = HeyDoMacUITests;
+			productReference = 2309E8B91CBF80A80031BE3A /* HeyDoMacUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2309E88D1CBF80A80031BE3A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = lbc;
+				TargetAttributes = {
+					2309E8941CBF80A80031BE3A = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = SJJ664X54M;
+					};
+					2309E8AD1CBF80A80031BE3A = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 2309E8941CBF80A80031BE3A;
+					};
+					2309E8B81CBF80A80031BE3A = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 2309E8941CBF80A80031BE3A;
+					};
+				};
+			};
+			buildConfigurationList = 2309E8901CBF80A80031BE3A /* Build configuration list for PBXProject "HeyDoMac" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2309E88C1CBF80A80031BE3A;
+			productRefGroup = 2309E8961CBF80A80031BE3A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2309E8941CBF80A80031BE3A /* HeyDoMac */,
+				2309E8AD1CBF80A80031BE3A /* HeyDoMacTests */,
+				2309E8B81CBF80A80031BE3A /* HeyDoMacUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2309E8931CBF80A80031BE3A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2309E8A81CBF80A80031BE3A /* LaunchScreen.storyboard in Resources */,
+				2309E8A51CBF80A80031BE3A /* Assets.xcassets in Resources */,
+				2309E8A31CBF80A80031BE3A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2309E8AC1CBF80A80031BE3A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2309E8B71CBF80A80031BE3A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2309E8911CBF80A80031BE3A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2309E8A01CBF80A80031BE3A /* ViewController.m in Sources */,
+				2309E89D1CBF80A80031BE3A /* AppDelegate.m in Sources */,
+				2309E89A1CBF80A80031BE3A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2309E8AA1CBF80A80031BE3A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2309E8B31CBF80A80031BE3A /* HeyDoMacTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2309E8B51CBF80A80031BE3A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2309E8BE1CBF80A80031BE3A /* HeyDoMacUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2309E8B01CBF80A80031BE3A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2309E8941CBF80A80031BE3A /* HeyDoMac */;
+			targetProxy = 2309E8AF1CBF80A80031BE3A /* PBXContainerItemProxy */;
+		};
+		2309E8BB1CBF80A80031BE3A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2309E8941CBF80A80031BE3A /* HeyDoMac */;
+			targetProxy = 2309E8BA1CBF80A80031BE3A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2309E8A11CBF80A80031BE3A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2309E8A21CBF80A80031BE3A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2309E8A61CBF80A80031BE3A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2309E8A71CBF80A80031BE3A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2309E8C01CBF80A80031BE3A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		2309E8C11CBF80A80031BE3A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2309E8C31CBF80A80031BE3A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = HeyDoMac/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.iloof.HeyDoMac.HeyDoMac;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		2309E8C41CBF80A80031BE3A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = HeyDoMac/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.iloof.HeyDoMac.HeyDoMac;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		2309E8C61CBF80A80031BE3A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = HeyDoMacTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.iloof.HeyDoMac.HeyDoMacTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HeyDoMac.app/HeyDoMac";
+			};
+			name = Debug;
+		};
+		2309E8C71CBF80A80031BE3A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = HeyDoMacTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.iloof.HeyDoMac.HeyDoMacTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HeyDoMac.app/HeyDoMac";
+			};
+			name = Release;
+		};
+		2309E8C91CBF80A80031BE3A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = HeyDoMacUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.iloof.HeyDoMac.HeyDoMacUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = HeyDoMac;
+			};
+			name = Debug;
+		};
+		2309E8CA1CBF80A80031BE3A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = HeyDoMacUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.iloof.HeyDoMac.HeyDoMacUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = HeyDoMac;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2309E8901CBF80A80031BE3A /* Build configuration list for PBXProject "HeyDoMac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2309E8C01CBF80A80031BE3A /* Debug */,
+				2309E8C11CBF80A80031BE3A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2309E8C21CBF80A80031BE3A /* Build configuration list for PBXNativeTarget "HeyDoMac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2309E8C31CBF80A80031BE3A /* Debug */,
+				2309E8C41CBF80A80031BE3A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2309E8C51CBF80A80031BE3A /* Build configuration list for PBXNativeTarget "HeyDoMacTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2309E8C61CBF80A80031BE3A /* Debug */,
+				2309E8C71CBF80A80031BE3A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2309E8C81CBF80A80031BE3A /* Build configuration list for PBXNativeTarget "HeyDoMacUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2309E8C91CBF80A80031BE3A /* Debug */,
+				2309E8CA1CBF80A80031BE3A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2309E88D1CBF80A80031BE3A /* Project object */;
+}
